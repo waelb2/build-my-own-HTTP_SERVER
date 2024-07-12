@@ -1,0 +1,13 @@
+{
+  "name": "/build-my-own-http-server",
+  "description": "build my own http server",
+  "scripts": {
+    "dev": " tsc-watch --onSuccess \"node ./dist/main.js\""
+  },
+  "dependencies": {
+    "async": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11"
+  }
+}
